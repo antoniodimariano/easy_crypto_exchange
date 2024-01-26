@@ -1,0 +1,39 @@
+{
+  "coins": {
+    "btc": {
+      "from_gecko": {
+        "bitcoin": {
+          "usd": 37488
+        }
+      },
+      "our_service": {
+        "usd_amount": 374880
+      }
+    },
+    "xrp": {
+      "from_gecko": {
+        "ripple": {
+          "usd": 0.645209
+        }
+      },
+      "our_service": {
+        "usd_amount": 6.45209
+      }
+    },
+    "eth": {
+      "from_gecko": {
+        "ethereum": {
+          "usd": 2065.55
+        }
+      },
+      "our_service": {
+        "usd_amount": 20655.5
+      }
+    }
+  },
+  "api_messages": {
+    "bad_amount": {
+      "detail": "Invalid Amount."
+    }
+  }
+}

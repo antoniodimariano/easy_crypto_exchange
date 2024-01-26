@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "exchange_crypto"
+version = "0.1.0"
+description = "A simple service to exchange crypto currencies to currencies"
+authors = ["Antonio Di Mariano <antonio.dimariano@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.2"
+sqlmodel = "^0.0.8"
+asyncpg = "^0.28.0"
+python-dotenv = "^1.0.0"
+greenlet = "^3.0.0"
+pytest = "^7.4.2"
+pytest-asyncio = "^0.21.1"
+httpx = "^0.25.0"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.6"
+bcrypt = "^4.0.1"
+black = "^23.10.1"
+bandit = "^1.7.5"
+alembic = "^1.12.1"
+python-json-logger = "^2.0.7"
+pytest-cov = "^4.1.0"
+aiohttp = "^3.8.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
