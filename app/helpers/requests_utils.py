@@ -52,7 +52,7 @@ def handle_exception(func):
             if request_counter > 10:
                 raise Exception(
                     f"Maximum number of attempts to {kwargs.get('method')} {kwargs.get('endpoint')} reached."
-                ) # noqa
+                )  # noqa
             return await func(*args, **kwargs)
 
         except asyncio.TimeoutError:
